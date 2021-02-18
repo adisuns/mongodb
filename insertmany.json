@@ -1,0 +1,20 @@
+db.paitent.insertMany([
+	{
+	"firstName":"Aditya",
+	"lastName":"Unhale",
+	"age":35,
+	"history": [ { "disease": "cold",	"treatment": "dibetis",	"alergy": "antibiotics"	} ]	
+	},
+	{
+	"firstName": "Akshat",
+	"lastName": "Sinha",
+	"age": 35,
+	"history": [ { 	"disease": "bp", "treatment": "migrane", "alergy": "na" }	]
+	},
+	{
+	"firstName": "vaibhav",
+	"lastName": "joshi",
+	"age": 35,
+	"history": [ { "disease": "ccovidold",	"treatment": "na", 	"alergy": "na" 	} ]
+	}
+]);
